@@ -78,11 +78,11 @@ As mentiond above, the below steps were taken:
 ## Summary - Table :
 | **Model**| **Accuracy Score**|**Model Loss**|**Hidden Layers Quan**|**Activation Function**|**Neurons**|
 |:-|:-|:-|:-|:-|:-|
-|**(1)**|0.7475|0.5231|2|['relu', 'tanh', 'sigmoid']|
-|**(2)**|0.7433|0.5291|2|['relu', 'tanh', 'sigmoid']|
-|**(3)**|0.7481|0.5186|2|['relu', 'tanh', 'sigmoid']|
-|**(4)**|0.7470|0.5208|4|['relu', 'tanh', 'sigmoid', 'leaky_relu']|
-|**(5)**|0.7307|0.5583|2|['relu', 'tanh', 'sigmoid']|
+|**(1)**|0.7475|0.5231|2|['relu', 'tanh', 'sigmoid']|80, 30|
+|**(2)**|0.7433|0.5291|2|['relu', 'tanh', 'sigmoid']|80, 30|
+|**(3)**|**0.7481**|**0.5186**|**2**|**['relu', 'tanh', 'sigmoid']**|**80, 30**|
+|**(4)**|0.7470|0.5208|4|['relu', 'tanh', 'sigmoid', 'leaky_relu']|100, 40, 10, 3|
+|**(5)**|0.7307|0.5583|2|['relu', 'tanh', 'sigmoid']|80, 30|
 
 
 logistic regression 
