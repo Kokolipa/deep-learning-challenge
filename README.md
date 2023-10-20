@@ -76,13 +76,13 @@ As mentiond above, the below steps were taken:
 4. Optimise the accuracy score by modifying the activation functions.
 
 ## Summary - Table :
-| **Model**| **Description**| **Accuracy Score**|**Model Loss**|**Hidden Layers Quan**|**Activation Function**|**Neurons**|
-|:-|:-|:-|:-|:-|:-|:-|
-|**(1)**|Original model|0.7475|0.5231|2|['relu', 'tanh', 'sigmoid']|
-|**(2)**|Optimise the accuracy score by increasing the number of values for each bin & removing columns|0.7433|0.5291|2|['relu', 'tanh', 'sigmoid']|
-|**(3)**|Optimise the accuracy score by increasing the amount of apochs.|0.7481|0.5186|2|['relu', 'tanh', 'sigmoid']|
-|**(4)**|Optimise the accuracy score by increasing the amount of hidden layers and neurons|0.7470|0.5208|4|['relu', 'tanh', 'sigmoid', 'leaky_relu']|
-|**(5)**|Optimise the accuracy score by modifying the activation functions|0.7307|0.5583|2|['relu', 'tanh', 'sigmoid']|
+| **Model**| **Accuracy Score**|**Model Loss**|**Hidden Layers Quan**|**Activation Function**|**Neurons**|
+|:-|:-|:-|:-|:-|:-|
+|**(1)**|0.7475|0.5231|2|['relu', 'tanh', 'sigmoid']|
+|**(2)**|0.7433|0.5291|2|['relu', 'tanh', 'sigmoid']|
+|**(3)**|0.7481|0.5186|2|['relu', 'tanh', 'sigmoid']|
+|**(4)**|0.7470|0.5208|4|['relu', 'tanh', 'sigmoid', 'leaky_relu']|
+|**(5)**|0.7307|0.5583|2|['relu', 'tanh', 'sigmoid']|
 
 
 logistic regression 
