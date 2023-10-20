@@ -84,8 +84,8 @@ As mentiond above, the below steps were taken:
 |**(4)**|0.7470|0.5208|4|['relu', 'tanh', 'sigmoid', 'leaky_relu']|100, 40, 10, 3|
 |**(5)**|0.7307|0.5583|2|['relu', 'tanh', 'sigmoid']|80, 30|
 
-
-logistic regression 
+### Recommandation
+- [x] Given that our model tries to predict a binary result, the **logistic regression** model can potentially more effective in solving Alphabet Soup's problem statemen as it estimates the probability of an event occurring, such as successful/unseccessful, based on a given dataset of independent variables. Logistic regression deals well with both features with linear relationships but can also perform well on features without linear relationships.
 
 #### Folder structure
 ``` yml
