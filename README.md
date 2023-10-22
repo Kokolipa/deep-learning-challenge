@@ -41,12 +41,16 @@ This project contains 2 deep-learning models:
 ### Compiling, Training, and Evaluating the Model: 
 **Five models were evaluated:**
 1. **The Original Model** ('AlphabetSoupCharity.h5').
+    * ![original-model](https://github.com/Kokolipa/deep-learning-challenge/blob/deep_main/Images/Original%20Model.png)
 2. The **second model** is trying to optimise the accuracy score by increasing the number of values for each bin & removing columns.
     * Our original model includes 43 features and inputs, which may introduce high variance and low bias for our dataset. Hence, manipulating the dataset by increasing the number of values in the bins may be necessary and valuable to fine-tune our model by reducing the amount of inputs. 
+    * ![model-2](https://github.com/Kokolipa/deep-learning-challenge/blob/deep_main/Images/Model%202.png)
 3. The **third model** tries to optimise the accuracy score by increasing the number of epochs the model is going to iterate through. 
     * Increasing the number of epochs results in more time for learning, fixing previous errors, and a deep understanding of the metric to be predicted.
+    * ![model-3](https://github.com/Kokolipa/deep-learning-challenge/blob/deep_main/Images/Model%203.png)
 4. The **fourth model** tries to optimise the accuracy score by increasing the amount of hidden layers and neurons. 
     * Here, I assume the model is complex and requires more layers to understand and predict the result, given the historical data, and by that, increase the accuracy score. 
+    * ![model-4](https://github.com/Kokolipa/deep-learning-challenge/blob/deep_main/Images/Model%204.png)
 5. The **fifth model** tries to optimise the accuracy score by modifying the activation functions. 
     * Here, I try to fine-tune the result with different activation functions and outline the results.
 
