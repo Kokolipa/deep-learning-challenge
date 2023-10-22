@@ -42,7 +42,7 @@ This project contains 2 deep-learning models:
 **Five models were evaluated:**
 1. **The Original Model** ('AlphabetSoupCharity.h5').
 2. The **second model** is trying to optimise the accuracy score by increasing the number of values for each bin & removing columns.
-    * Our original model includes 43 features and inputs, which may introduce high variance and low bias for our dataset. Hence, manipulating the dataset by increasing the number of values in the bins may be necessary and valuable to fine-tunning our model by reducing the amount of inputs. 
+    * Our original model includes 43 features and inputs, which may introduce high variance and low bias for our dataset. Hence, manipulating the dataset by increasing the number of values in the bins may be necessary and valuable to fine-tune our model by reducing the amount of inputs. 
 3. The **third model** tries to optimise the accuracy score by increasing the number of epochs the model is going to iterate through. 
     * Increasing the number of epochs results in more time for learning, fixing previous errors, and a deep understanding of the metric to be predicted.
 4. The **fourth model** tries to optimise the accuracy score by increasing the amount of hidden layers and neurons. 
@@ -57,7 +57,7 @@ This project contains 2 deep-learning models:
 <br>
 
 * **Models 1, 2, 3, and 5:** 2 hidden layers, 80 neurons for the first hidden layer, 30 neurons for the second hidden layer, and 1 neuron for the output layer. Activation functions used = relu, tanh, and sigmoid. 
-    * Determining the number of hidden layers is dependent of the complexity of the model, in our case, one hidden layer won't suffice for the model to learn complex relationships and patterns for two layers are a good starting point.
+    * Determining the number of hidden layers is dependent of the complexity of the model, in our case, one hidden layer won't suffice for the model to learn complex relationships and patterns so two layers are a good starting point.
     * The number of neurons for each layer most of the time. The rule of thumb is that the number of neurons should be twice as big as the number of features/inputs the model received. So 80 is a good starting point. I reduce the number of neurons to 30 to allow the network to distil and focus on essential features as it progresses.
     * The output layer is used with a sigmoid function as the model tries to predict a binary result (true/false). 
     * Relu and tanh are being used for the first and second hidden layers. Relu is used for faster learning and simplified output, while tanh is used to classify the data into two distinguished classes (good vs bad OR successful/unsuccessful, in our circumstances). 
@@ -85,7 +85,7 @@ As mentioned above, the below steps were taken:
 |**(5)**|0.7307|0.5583|2|['relu', 'tanh', 'sigmoid']|80, 30|
 
 ### Recommendation
-- [x] Given that our model tries to predict a binary result, the **logistic regression** model can potentially be more effective in solving Alphabet Soup's problem statement as it estimates the probability of an event occurring, such as successful/unsuccessful, based on a given dataset of independent variables. Logistic regression deals well with both features with linear relationships but can also perform well on features without linear relationships.
+- [x] Given that our model tries to predict a binary result, the **logistic regression** model can potentially be more effective in solving Alphabet Soup's problem statement as it estimates the probability of an event occurring, such as successful/unsuccessful, based on a given dataset of independent variables. Logistic regression deals well with features with linear relationships but can also perform well with features without linear relationships.
 
 ### Libraries Used
 1. sklearn
